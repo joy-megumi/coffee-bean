@@ -28,7 +28,7 @@ color values:
  }
  /* header section 1 */
  .nav{
-     border: 4px solid red;
+     /* border: 4px solid red; */
      width: 85%;
      margin: 1em auto;
      overflow: auto;
@@ -62,7 +62,7 @@ color values:
  /* banner section 2 */
 
  .banner{
-     border: 4px solid red;
+     /* border: 4px solid red; */
      height: 670px;
      background-image: url(../images/banner-bg.jpg);
      background-repeat: no-repeat;
@@ -113,13 +113,13 @@ color values:
 
 /* ads-1 section 3 */
 .ads{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 85%;
     margin: 4em auto;
     overflow: auto;
 }
 .ads-items{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     /* width: 50%; and use margin 2% item1 */
     width: 49%;
     height: 350px;
@@ -140,7 +140,7 @@ color values:
      background-position: center center;    
 }
 .ads-text{
-    border: 2px dashed yellow;
+    /* border: 2px dashed yellow; */
     position: absolute;
     left: 7.5%;
      top: 50%;
@@ -175,13 +175,13 @@ color values:
 
 /* merchandise section 4 */
 .merch{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 85%;
     margin: 4em auto;
     /* no overflow here we will put it to the parent called merch-itmes */
 }
 .section-header{
-        border: 2px dashed green;
+        /* border: 2px dashed green; */
         text-align: center;
 }
 .section-header span{
@@ -203,13 +203,13 @@ color values:
 
 }
 .merch-gallery{
-    border: 2px dashed yellow;
+    /* border: 2px dashed yellow; */
     /* width: auto; no need because follows the parent */
     overflow: auto;
     margin-top: 2em;
 }
 .merch-items{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 24%;
     float: left;
     margin-right: 1.33%;
@@ -231,7 +231,7 @@ color values:
 
 /* discount section 5 */
 .discount{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 85%;
     margin: 4em auto;
     height: 350px; 
@@ -242,7 +242,7 @@ color values:
     position: relative;   
 }
 .discount-text{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -306,19 +306,19 @@ color values:
     /* reservation section 8 */
 
     .reservation{
-        border: 4px solid red;
+        /* border: 4px solid red; */
         width: 85%;
         margin: 4em auto;
         /* no overflow because no layouting here*/
     }
    form{
-       border: 2px dashed green;
+       /* border: 2px dashed green; */
        overflow: auto;
        /* need overflow cuz need to side by side */
        margin-top: 2em;
    }
    .form-group{
-       border: 2px solid blue;
+       /* border: 2px solid blue; */
        width: 49%;
        float: left;
        /* width 50%=49% and float to make the go side by side */
@@ -336,7 +336,7 @@ color values:
        font-weight: 700;
    }
 form input,form textarea,form select{
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
     /* input supports width and height unlike a tag
     a tag needs inline dis */
     width: 100%;
@@ -392,20 +392,20 @@ form #submit{
 /* footer-1 section 9 */
 
 .footer{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     background-image: url(../images/footer-img.jpg);
     background-size: cover;
     background-position: center center;
     padding: 2em 0;
 }
 .footer-content{
-    border: 2px dashed yellow;
+    /* border: 2px dashed yellow; */
     width: 85%;
     margin: auto;
     overflow: auto;
 }
 .footer-widgets{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 24%;
     float: left;
     margin-right: 1.33%;
@@ -448,7 +448,7 @@ form #submit{
     overflow: auto;
 }
 .social-widgets{
-    border: 2px dashed yellow;
+    /* border: 2px dashed yellow; */
     width: 33.33%;
     float: left;
     color: #ffffff;
