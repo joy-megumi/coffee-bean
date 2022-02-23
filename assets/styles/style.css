@@ -372,7 +372,7 @@ we can also make it .restime input{  } instead of .restime *{ } */
 .form-group h3::after{
     content: "";
     display: block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 30px;
     width: 150px;
     /* if we have content no need to put h and w */
